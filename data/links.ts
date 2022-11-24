@@ -6,6 +6,7 @@ export const links = [
     imageUrl: "https://nextjs.org/static/twitter-cards/home.jpg",
     title: "Next.js",
     url: "https://nextjs.org",
+    index: 1
   },
   {
     category: "Open Source",
@@ -15,6 +16,7 @@ export const links = [
 
     title: "Prisma",
     url: "https://prisma.io",
+    index: 2
   },
   {
     category: "Open Source",
@@ -24,6 +26,7 @@ export const links = [
       "https://tailwindcss.com/_next/static/media/twitter-large-card.85c0ff9e455da585949ff0aa50981857.jpg",
     title: "TailwindCSS",
     url: "https://tailwindcss.com",
+    index: 3
   },
   {
     category: "Open Source",
@@ -32,5 +35,6 @@ export const links = [
     imageUrl: "https://www.apollographql.com/apollo-home.jpg",
     title: "Apollo GraphQL",
     url: "https://apollographql.com",
+    index: 4
   },
 ];
