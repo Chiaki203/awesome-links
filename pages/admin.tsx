@@ -173,15 +173,15 @@ export const getServerSideProps = async({req, res}) => {
       email: session.user.email
     }
   })
-  if (user.role !== 'ADMIN') {
-    return {
-      redirect: {
-        permanent: false,
-        destination: '/404'
-      },
-      props: {}
-    }
-  }
+  // if (user.role !== 'ADMIN') {
+  //   return {
+  //     redirect: {
+  //       permanent: false,
+  //       destination: '/404'
+  //     },
+  //     props: {}
+  //   }
+  // }
   return {
     props: {}
   }
